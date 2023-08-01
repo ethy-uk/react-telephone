@@ -16,8 +16,6 @@
     "dev": "microbundle watch",
     "build": "microbundle --jsx 'React.createElement' --jsxImportSource react --globals react/jsx-runtime=jsx",
     "test": "vitest",
-    "prepare": "husky install",
-    "lint": "eslint --ignore-path .gitignore --ext .ts,.tsx .",
     "tsc": "tsc --noEmit"
   },
   "license": "MIT",
