@@ -1,5 +1,5 @@
 import * as React from 'react';
-import countries from './countries.ts';
+import countries from './countries';
 import {
   Country as CountryType,
   getMaskDigit,
@@ -8,7 +8,7 @@ import {
   PhoneNumber,
   replaceDialCode,
   splitPhoneNumber,
-} from './utils.ts';
+} from './utils';
 
 const DEFAULT_PHONE_NUMBER = {
   raw: '',
