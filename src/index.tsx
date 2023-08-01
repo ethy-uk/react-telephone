@@ -139,6 +139,7 @@ const _Number = React.forwardRef<
           : props.placeholder
       }
       type="tel"
+      autoComplete="tel-national"
       value={_value.formatted}
       onChange={(e) => {
         props.onChange?.(e);
